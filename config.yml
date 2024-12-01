@@ -1,42 +1,102 @@
-# Configuration file for the Windfallen project
+# Site settings
+title: "Windfallen"
+description: "Multi-Agent Reinforcement Learning in an Agricultural Environment"
+author: "Darby Brown, Erik Sambrailo, River Schieberl, Tim Tung"
+email: "darbybrown@berkeley.edu"
+url: "https://darby-brown.github.io/project-windfallen" # Your site's base URL (update for custom domains)
+baseurl: "" # Leave empty if deploying to GitHub Pages root (e.g., username.github.io)
 
-# General settings
-project_name: Windfallen
-version: 1.0.0
-author: Darby Brown
-email: darbybrown@berkeley.edu
+# Social and SEO
+# twitter_username: your_twitter_username
+github_username: darby-brown
+# linkedin_username: https://www.linkedin.com/in/darbyebrown/
+# google_analytics: UA-XXXXXXXXX-X # Google Analytics tracking ID (optional)
 
-# Server settings
-server:
-  host: localhost
-  port: 8080
+# Jekyll options
+# theme: minima # Replace with your chosen theme, or use remote_theme for GitHub-hosted themes
+remote_theme: "mmistakes/minimal-mistakes@4.26.2" # Uncomment to use a remote theme
 
-# Database settings
-database:
-  type: postgresql
-  host: localhost
-  port: 5432
-  name: windfallen_db
-  user: db_user
-  password: db_password
-
-# Logging settings
-logging:
-  level: INFO
-  file: logs/windfallen.log
-
-# API settings
-api:
-  base_url: https://api.windfallen.com
-  timeout: 30
-
-# Feature toggles
-features:
-  enable_feature_x: true
-  enable_feature_y: false
-
-# theme
-# theme
-remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+# Plugins
 plugins:
-  - jekyll-remote-theme
+  - jekyll-feed # RSS feed generator
+  - jekyll-seo-tag # SEO optimization
+  - jekyll-sitemap # Sitemap for search engines
+  - jekyll-include-cache # Caching includes (recommended for some themes)
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM # GitHub Flavored Markdown
+  auto_ids: true
+  hard_wrap: false
+
+# Pagination (if using Jekyll pagination)
+paginate: 5 # Posts per page
+paginate_path: "/page:num/"
+
+# Defaults for collections
+defaults:
+  - scope:
+      path: "" # All files
+    values:
+      layout: "default"
+
+# Exclude files/folders from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+  - vendor
+
+# Include additional files
+include:
+  - ".htaccess"
+
+# Build settings
+permalink: pretty # Removes file extensions from URLs (e.g., /about instead of /about.html)
+
+
+
+ # Configuration file for the Windfallen project
+
+# # General settings
+# project_name: Windfallen
+# version: 1.0.0
+# author: Darby Brown
+# email: darbybrown@berkeley.edu
+
+# # Server settings
+# server:
+#   host: localhost
+#   port: 8080
+
+# # Database settings
+# # database:
+# #   type: postgresql
+# #   host: localhost
+# #   port: 5432
+# #   name: windfallen_db
+# #   user: db_user
+# #   password: db_password
+
+# # Logging settings
+# logging:
+#   level: INFO
+#   file: logs/windfallen.log
+
+# # API settings
+# api:
+#   base_url: https://api.windfallen.com
+#   timeout: 30
+
+# # Feature toggles
+# features:
+#   enable_feature_x: true
+#   enable_feature_y: false
+
+# # theme
+# # theme
+# remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+# plugins:
+#   - jekyll-remote-theme
