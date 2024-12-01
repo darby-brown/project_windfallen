@@ -1,0 +1,42 @@
+# Configuration file for the Windfallen project
+
+# General settings
+project_name: Windfallen
+version: 1.0.0
+author: Darby Brown
+email: darbybrown@berkeley.edu
+
+# Server settings
+server:
+  host: localhost
+  port: 8080
+
+# Database settings
+database:
+  type: postgresql
+  host: localhost
+  port: 5432
+  name: windfallen_db
+  user: db_user
+  password: db_password
+
+# Logging settings
+logging:
+  level: INFO
+  file: logs/windfallen.log
+
+# API settings
+api:
+  base_url: https://api.windfallen.com
+  timeout: 30
+
+# Feature toggles
+features:
+  enable_feature_x: true
+  enable_feature_y: false
+
+# theme
+# theme
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+plugins:
+  - jekyll-remote-theme
