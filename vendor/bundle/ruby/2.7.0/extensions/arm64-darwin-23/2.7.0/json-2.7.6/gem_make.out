@@ -1,0 +1,20 @@
+current directory: /Users/darbybrown/Documents/datasci210/website/project_windfallen/vendor/bundle/ruby/2.7.0/gems/json-2.7.6/ext/json/ext/parser
+/Users/darbybrown/.rbenv/versions/2.7.7/bin/ruby -I /Users/darbybrown/.rbenv/versions/2.7.7/lib/ruby/2.7.0 -r ./siteconf20241202-24905-1oyaei0.rb extconf.rb
+checking for rb_enc_raise() in ruby.h... yes
+checking for rb_enc_interned_str() in ruby.h... no
+checking for whether -std=c99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: /Users/darbybrown/Documents/datasci210/website/project_windfallen/vendor/bundle/ruby/2.7.0/gems/json-2.7.6/ext/json/ext/parser
+make "DESTDIR=" clean
+
+current directory: /Users/darbybrown/Documents/datasci210/website/project_windfallen/vendor/bundle/ruby/2.7.0/gems/json-2.7.6/ext/json/ext/parser
+make "DESTDIR="
+compiling parser.c
+linking shared-object json/ext/parser.bundle
+ld: warning: -multiply_defined is obsolete
+ld: warning: ignoring duplicate libraries: '-lruby.2.7'
+
+current directory: /Users/darbybrown/Documents/datasci210/website/project_windfallen/vendor/bundle/ruby/2.7.0/gems/json-2.7.6/ext/json/ext/parser
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 parser.bundle ./.gem.20241202-24905-b65a5b/json/ext

@@ -13,15 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
+title: Windfallen
+email: darbybrown@berkeley.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
+  Leveraging multi-agent reinforcement learning for robotic harvesting of windfallen fruit.
+# twitter_username: username
+# github_username: username
+# m/inimal_mistakes_skin: default
 search: true
 
 # Build settings
@@ -57,35 +55,83 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
-  links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+authors:
+  - name: "Darby Brown"
+    avatar: "/assets/images/darby.jpeg"
+    bio: "Darby's biography goes here."
+    # links:
+    #   - label: "Website"
+    #     icon: "fas fa-fw fa-link"
+    #     url: "https://darby-website.com"
+    #   - label: "Twitter"
+    #     icon: "fab fa-fw fa-twitter-square"
+    #     url: "https://twitter.com/darby"
+    #   - label: "GitHub"
+    #     icon: "fab fa-fw fa-github"
+    #     url: "https://github.com/darby"
+    #   - label: "Instagram"
+    #     icon: "fab fa-fw fa-instagram"
+    #     url: "https://instagram.com/darby"
+  - name: "Erik Sambrailo"
+    avatar: "/assets/images/erik.jpeg"
+    bio: "Erik's biography goes here."
+    links:
+      # - label: "Website"
+      #   icon: "fas fa-fw fa-link"
+      #   url: "https://erik-website.com"
+      # - label: "Twitter"
+      #   icon: "fab fa-fw fa-twitter-square"
+      #   url: "https://twitter.com/erik"
+      # - label: "GitHub"
+      #   icon: "fab fa-fw fa-github"
+      #   url: "https://github.com/erik"
+      # - label: "Instagram"
+      #   icon: "fab fa-fw fa-instagram"
+      #   url: "https://instagram.com/erik"
+  - name: "River Schieberl"
+    avatar: "/assets/images/river.jpeg"
+    bio: "River's biography goes here."
+    # links:
+    #   - label: "Website"
+    #     icon: "fas fa-fw fa-link"
+    #     url: "https://river-website.com"
+    #   - label: "Twitter"
+    #     icon: "fab fa-fw fa-twitter-square"
+    #     url: "https://twitter.com/river"
+    #   - label: "GitHub"
+    #     icon: "fab fa-fw fa-github"
+    #     url: "https://github.com/river"
+    #   - label: "Instagram"
+    #     icon: "fab fa-fw fa-instagram"
+    #     url: "https://instagram.com/river"
+  - name: "Tim Tung"
+    avatar: "/assets/images/tim.jpeg"
+    bio: "Tim's biography goes here."
+    links:
+      # - label: "Website"
+      #   icon: "fas fa-fw fa-link"
+      #   url: "https://tim-website.com"
+      # - label: "Twitter"
+      #   icon: "fab fa-fw fa-twitter-square"
+      #   url: "https://twitter.com/tim"
+      # - label: "GitHub"
+      #   icon: "fab fa-fw fa-github"
+      #   url: "https://github.com/tim"
+      # - label: "Instagram"
+      #   icon: "fab fa-fw fa-instagram"
+      #   url: "https://instagram.com/tim"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/riverliway/applesauce"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/"
 
 defaults:
   # _posts
