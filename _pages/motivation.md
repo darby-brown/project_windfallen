@@ -1,5 +1,5 @@
 ---
-permalink: /Motivation/
+permalink: /motivation/
 title: "Motivation"
 ---
 
