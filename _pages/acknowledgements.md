@@ -60,3 +60,4 @@ We extend our sincere gratitude to our Capstone instructors, Joyce Chen and Kori
 We are also indebted to the developers of the Mava library, who generously shared their time and expertise on constructing an environment for accelerated training in Mava. Thank you to Ruan de Kock, Sasha Abramowitz, Omayma Mahjoub, and Weim Khlifi from InstaDeep.
 
 Finally, we would like to thank the farmers who opened their orchards to us. Interviews with local farmers in Watsonville, CA enabled us to tailor our research to focus on their most pressing needs and to conduct research that more closely resembles a real-world scenario.
+
