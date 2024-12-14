@@ -1,13 +1,9 @@
 ---
-permalink: /acknowledgements/
-title: "Acknowledgements"
+permalink: /team/
+title: "Meet Our Team"
 ---
 
-## Meet Our Team
-
 Windfallen is a group of researchers from UC Berkeley. We love solving difficult problems that can make a big impact. We are passionate about bringing technological advancements like reinforcement learning and robotics to the agriculture industry. 
-
-
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
 
@@ -16,9 +12,14 @@ Windfallen is a group of researchers from UC Berkeley. We love solving difficult
     <img src="{{ site.baseurl }}/assets/images/darby.jpeg" alt="Teammate 1" style="width: 100%; max-width: 150px; border-radius: 50%; margin-bottom: 10px;">
     <h3>Darby Brown</h3>
     <p> </p>
-    <a href="https://www.linkedin.com/in/darbyebrown/" target="_blank" style="text-decoration: none;">
-      <img src="{{ site.baseurl }}/assets/images/linkedin_logo.png" alt="LinkedIn" style="width: 40px; height: 40px;">
-    </a>
+    <div>
+      <a href="https://www.linkedin.com/in/darbyebrown/" target="_blank" style="text-decoration: none; margin-right: 10px;">
+        <img src="{{ site.baseurl }}/assets/images/linkedin_logo.png" alt="LinkedIn" style="width: 30px; height: 30px;">
+      </a>
+      <a href="https://github.com/darby-brown" target="_blank" style="text-decoration: none;">
+        <img src="{{ site.baseurl }}/assets/images/github_logo.png" alt="GitHub" style="width: 30px; height: 30px;">
+      </a>
+    </div>
   </div>
 
   <!-- Teammate 2 -->
@@ -26,9 +27,14 @@ Windfallen is a group of researchers from UC Berkeley. We love solving difficult
     <img src="{{ site.baseurl }}/assets/images/erik.jpeg" alt="Teammate 2" style="width: 100%; max-width: 150px; border-radius: 50%; margin-bottom: 10px;">
     <h3>Erik Sambrailo</h3>
     <p> </p>
-    <a href="https://www.linkedin.com/in/eriksambrailo/" target="_blank" style="text-decoration: none;">
-      <img src="{{ site.baseurl }}/assets/images/linkedin_logo.png" alt="LinkedIn" style="width: 40px; height: 40px;">
-    </a>
+    <div>
+      <a href="https://www.linkedin.com/in/eriksambrailo/" target="_blank" style="text-decoration: none; margin-right: 10px;">
+        <img src="{{ site.baseurl }}/assets/images/linkedin_logo.png" alt="LinkedIn" style="width: 30px; height: 30px;">
+      </a>
+      <a href="https://github.com/esambrailo" target="_blank" style="text-decoration: none;">
+        <img src="{{ site.baseurl }}/assets/images/github_logo.png" alt="GitHub" style="width: 30px; height: 30px;">
+      </a>
+    </div>
   </div>
 
   <!-- Teammate 3 -->
@@ -36,9 +42,14 @@ Windfallen is a group of researchers from UC Berkeley. We love solving difficult
     <img src="{{ site.baseurl }}/assets/images/river.jpeg" alt="Teammate 3" style="width: 100%; max-width: 150px; border-radius: 50%; margin-bottom: 10px;">
     <h3>River Schieberl</h3>
     <p> </p>
-    <a href="https://www.linkedin.com/in/river-schieberl/" target="_blank" style="text-decoration: none;">
-      <img src="{{ site.baseurl }}/assets/images/linkedin_logo.png" alt="LinkedIn" style="width: 40px; height: 40px;">
-    </a>
+    <div>
+      <a href="https://www.linkedin.com/in/river-schieberl/" target="_blank" style="text-decoration: none; margin-right: 10px;">
+        <img src="{{ site.baseurl }}/assets/images/linkedin_logo.png" alt="LinkedIn" style="width: 30px; height: 30px;">
+      </a>
+      <a href="https://github.com/riverliway" target="_blank" style="text-decoration: none;">
+        <img src="{{ site.baseurl }}/assets/images/github_logo.png" alt="GitHub" style="width: 30px; height: 30px;">
+      </a>
+    </div>
   </div>
 
   <!-- Teammate 4 -->
@@ -46,12 +57,18 @@ Windfallen is a group of researchers from UC Berkeley. We love solving difficult
     <img src="{{ site.baseurl }}/assets/images/tim.jpeg" alt="Teammate 4" style="width: 100%; max-width: 150px; border-radius: 50%; margin-bottom: 10px;">
     <h3>Tim Tung</h3>
     <p> </p>
-    <a href="https://www.linkedin.com/in/tim-tung/" target="_blank" style="text-decoration: none;">
-      <img src="{{ site.baseurl }}/assets/images/linkedin_logo.png" alt="LinkedIn" style="width: 40px; height: 40px;">
-    </a>
+    <div>
+      <a href="https://www.linkedin.com/in/tim-tung/" target="_blank" style="text-decoration: none; margin-right: 10px;">
+        <img src="{{ site.baseurl }}/assets/images/linkedin_logo.png" alt="LinkedIn" style="width: 30px; height: 30px;">
+      </a>
+      <a href="https://github.com/timtung" target="_blank" style="text-decoration: none;">
+        <img src="{{ site.baseurl }}/assets/images/github_logo.png" alt="GitHub" style="width: 30px; height: 30px;">
+      </a>
+    </div>
   </div>
 
 </div>
+
 
 ## Advisors and Collaborators
 
